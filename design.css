@@ -1,0 +1,181 @@
+
+
+.page1 {
+margin:10% ;
+background: red ; 
+}
+
+
+.TeaPicture {
+
+width: 600px ; 
+float : right ; 
+
+}
+
+
+.CofeePicture { 
+
+width : 600px ; 
+float : left ; 
+
+}
+
+
+
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+
+
+
+
+
+
+
+
+
+
+.container {
+    width: 98%;
+  }
+  
+  .logo {
+    border-radius: 50%;
+  }
+  
+  .text-muted a {
+    color: #989898;
+  }
+  
+  .text-muted a:hover {
+    color: grey;
+  }
+  
+  .fa a:active, a:hover, a:visited {
+    text-decoration: none;
+  }
+  
+  /* Tool Colors */
+  .general {
+    background-color: #0095af;
+  }
+  
+  .general .card-title {
+    color: #f3f3f3;
+  }
+  
+  .general .card-text {
+    color: #f3f3f3;
+  }
+  
+  .card-img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .2s ease;
+    background-color: #008CBA;
+  }
+  
+  .card-pin:hover .overlay {
+    opacity: .5;
+    border: 5px solid #f3f3f3;
+    transition: ease .5s;
+    background-color: #000000;  
+    cursor: zoom-in;
+  }
+  
+  .more {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-transform: uppercase;
+    transform: translate(-20%, -20%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  
+  .download {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 20px;
+    text-transform: uppercase;
+    transform: translate(-20%, -20%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  
+  .card-pin:hover .card-title {
+    color: #ffffff;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  
+  .card-pin:hover .more a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .card-pin:hover .download a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .social {
+      position: relative;
+      transform: translateY(-50%);
+  }
+  
+  .social .fa {
+    margin: 0 3px;
+  }
